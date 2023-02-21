@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>sign_in</title>
+<link rel="stylesheet" href="style1.css">
+
+</head>
+<body> 
+    <div class="sign_in">
+    <form method="" action="" class="form" name="myform">
+        <h1 class="title">Sign in</h1>
+        
+        <div class="inputContainer">
+            <input type="text" class="input" placeholder="a" required>
+            <label for="" class="label">Email</label>
+        </div>
+        <div class="inputContainer">
+            <input type="password" class="input" placeholder="a" required>
+            <label for="" class="label">Password</label>
+        </div>
+       
+            <p>
+                <a href="forgot.html" style="text-decoration: none;">forgot Password?</a>
+            </p>  
+            <p class="register">
+                <a href="sign_up.html" style="text-decoration: none;">Don't have account?</a>
+            </p>
+            <a href="select.html" style="text-decoration: none;">
+                <button class="submitBtn" onclick="myFunction()">
+                    <a href="social.html">sign in</a></button>
+                </a>
+       
+    </form>
+</div>
+<script>
+    function myFunction(){
+    var txt;
+    if(confirm("login sucessfully")){
+    txt = "";
+  }
+  else {
+   txt="not login!";
+  }
+  }
+</script>
+
+</body>
+</html>
